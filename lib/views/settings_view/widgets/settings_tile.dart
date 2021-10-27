@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:remixicon/remixicon.dart';
 import 'package:test_app/models/settings_item_model.dart';
 import 'package:test_app/utils/dimensions.dart';
+import 'package:test_app/views/import_from_seed_view/import_from_seed_view.dart';
 
 class SettingsTile extends StatelessWidget {
   const SettingsTile({
@@ -14,6 +15,11 @@ class SettingsTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      // onTap: item!.onTap,
+      onTap: () {
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (_) => const ImportFromScreen()));
+      },
       minLeadingWidth: 20,
       leading: Icon(
         item!.icon!,

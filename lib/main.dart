@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+// import 'package:test_app/views/import_from_seed_view/import_from_seed_view.dart';
 import 'package:test_app/views/settings_view/settings_view.dart';
 
 void main() {

@@ -7,7 +7,6 @@ import 'package:test_app/utils/dimensions.dart';
 import 'package:test_app/views/settings_view/widgets/bottom_navigation_section.dart';
 import 'package:test_app/views/settings_view/widgets/custom_appbar.dart';
 import 'package:test_app/views/settings_view/widgets/settings_tile.dart';
-import 'package:remixicon/remixicon.dart';
 
 class SettingsView extends StatelessWidget {
   const SettingsView({Key? key}) : super(key: key);

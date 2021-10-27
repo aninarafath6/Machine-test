@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class AppColors {
   static const Color primaryColor = Color(0xff080A0C);
   static const Color lightGrey = Color(0xff7E8FA1);
+  static const Color labelColor = Color(0xff6A84A0);
+  static const Color borderColor = Color(0xff181E25);
   static const LinearGradient selectedGradient = LinearGradient(
     colors: <Color>[
       Color(0xff93CFEE),
